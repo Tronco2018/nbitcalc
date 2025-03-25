@@ -2,14 +2,24 @@
 <html>
 <head>	
 	<script src="script1.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>N°Bit calculator...</h2>
-<input id="maxValInput" placeholder="Max Value"></input>
-<input id="minValInput" placeholder="Min Value"></input>
-<input id="precInput" placeholder="Precision"></input>
-<button type="button" onclick="calculate()">Calculate</button>
-<hr>
+	<h2 class="title">N°Bit calculator</h2>
+	<div class="secBody">
+	<div class="boxes">
+		<div class="box1">
+		<input id="maxValInput" placeholder="Max Value"></input>
+		</div>
+		<div class="box2">
+		<input id="minValInput" placeholder="Min Value"></input>
+		</div>
+		<div class="box3">
+		<input id="precInput" placeholder="Precision"></input>
+	</div>
+		<button type="button" onclick="calculate()" class="buttonC">Calculate</button>
+	</div>
+	<hr>
 <label>Result: </label>
 <label id="resultLabel"></label>
 </body>
